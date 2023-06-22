@@ -264,6 +264,7 @@
 
 #footer .social img{
     height: 30px;
+    cursor: pointer;
 }
 
 #footer p{
@@ -544,6 +545,7 @@
 
 #footer .social img{
     height: 30px;
+    cursor: pointer
 }
 
 #footer p{
@@ -1096,6 +1098,7 @@
         
         #footer .social img{
             height: 25px;
+            cursor: pointer;
         }
         
         #footer p{
