@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+*{
+    --color-theme: #724fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+#header{
+    position: sticky;
+    padding: 10px 60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f2f2f2;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#yearCount{
+    color: var(--color-theme);
+}
+
+#hero-section h1{
+    padding: 30px 60px;
+    width: fit-content;
+    margin: auto;
+    font-size: 60px;
+    color: var(--color-theme);
+    text-align: center;
+}
+
+#logo-para{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 60px;
+    font-size: 18px;
+    color: var(--color-theme);
+    font-weight: 500;
+}
+
+#dive-in{
+    display: block;
+    padding: 10px 60px;
+    margin: auto;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#app-section{
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-desc{
+    width: 50%;
+    background-color: var(--color-theme);
+    padding: 40px 30px;
+    border-radius: 50px;
+    z-index: 10;
+    border: 0;
+    box-shadow: 4px 4px 15px rgba(28, 28, 28, 0.4);
+}
+.app-desc h1{
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.app-desc p{
+    min-height: 150px;
+    font-size: 20px;
+    color: #fff;
+    padding: 30px 0;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.dwn-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dwn-btns{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+#dwn-app{
+    color: #fff;
+    background-color: #000;
+}
+
+#use-web{
+    color: #000;
+}
+
+#use-web:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.phn-con{
+    position: relative;
+    width: fit-content;
+}
+
+.phn-con video{
+    position: relative;
+    top: 15px;
+    height: 615px;
+    width: 309px;
+    border-radius: 60px;
+}
+
+.phn-con img{
+    z-index: 2;
+    position: absolute;
+}
+
+#features{
+    padding: 40px 60px; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+#features .fe{
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+    background-color: #DBCAE3;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    text-align: center;
+    margin: 30px;
+}
+
+#features .fe img{
+    height: 67px;
+    width: 67px;
+}
+
+#features .fe h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#features .fe h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#team h4, #team h1{
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+#team h4{
+    font-weight: 500;
+}
+
+#team h1{
+    color: var(--color-theme)5;
+}
+
+#team #members{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    padding: 15px 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #DBCAE3;
+}
+
+.team-con{
+    height: fit-content;
+    width: 178px;
+    margin: auto 30px;
+}
+
+.team-con img{
+    height: 178px;
+    width: 178px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+.team-con h3, .team-con h4{
+    padding: 10px 0px 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+#faq{
+    background-color: var(--color-theme);
+    color: #fff;
+    padding: 10px 60px;
+
+}
+
+#faq h1{
+    padding: 25px 0px;
+}
+
+#faq .qna .questions{
+    width: 30%;
+}
+
+#faq .qna .questions h2{
+    padding: 10px 0px;
+}
+
+#faq .qna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer{
+    background-color: var(--color-theme);
+    padding: 20px 60px 5px;
+}
+
+#footer #insta{
+    height: 40px;
+}
+
+#footer .social{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+#footer .social img{
+    height: 30px;
+}
+
+#footer p{
+    font-size: 16px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2%;
+}
