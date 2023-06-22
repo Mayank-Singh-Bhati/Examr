@@ -841,7 +841,6 @@
 }
 
 @media (max-width: 770px){
-    @media (max-width: 900px) {
         #header{
             position: sticky;
             padding: 8px 20px;
@@ -905,7 +904,7 @@
             margin: auto;
             width: 100%;
             background-color: var(--color-theme);
-            padding: 25px 20px;
+            padding: 20px 10px;
             border-radius: 50px;
             z-index: 10;
             border: 0;
@@ -925,7 +924,7 @@
             font-size: 12px;
             color: #fff;
             padding: 20px 0;
-            width: 90%;
+            width: 95%;
             text-align: center;
             margin: auto;
         }
