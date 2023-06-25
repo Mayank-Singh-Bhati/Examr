@@ -25,7 +25,7 @@
     <section id="hero-section">
        <h1 id="logo">Examr</h1> 
        <p id="logo-para">Explore Examr, the ultimate source for free educational content and previous test papers! Thrive in your academic quest with our exceptional learning center.</p>
-       <button id="dive-in">Div in now</button>
+       <button id="dive-in" onclick="launchSoon()">Div in now</button>
     </section>
 
     <section id="app-section">
@@ -34,7 +34,7 @@
             <p>Discover a limitless realm of tailored educational materials, exclusively for college learners. Become a member of Examr now to conquer tests like an expert!</p>
             <div class="dwn-section">
                 <button class="dwn-btns" id="dwn-app">Download app</button>
-                <button class="dwn-btns" id="use-web">Use web version</button>
+                <button class="dwn-btns" id="use-web" onclick="launchSoon()">Use web version</button>
             </div>
         </div>
         <div class="phn-con">
@@ -117,5 +117,11 @@
         <p>© Examr</p>
         <p>Since June 2023</p>
     </section>
+
+    <script>
+        const launchSoon = () => {
+            location.href = "wwww.google.com";
+        }
+    </script>
 </body>
 </html>
