@@ -343,10 +343,12 @@
 }
 
 .open-popup{
-    position: sticky;
+  position: sticky;
   visibility: visible;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%) scale(1);
+    z-index: 999;
 }
 /* Width below 1190 */
 @media (max-width: 1190px) {
