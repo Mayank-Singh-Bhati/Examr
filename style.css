@@ -279,9 +279,9 @@
 
 .form-box{
   position: absolute;
-  top: 50%;
+  top: 0%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(0.1);
   border: 1px solid #d1d1d1;
   border-radius: 10px;
   max-width: 400px;
@@ -343,6 +343,7 @@
 }
 
 .open-popup{
+    position: sticky;
   visibility: visible;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
