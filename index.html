@@ -33,7 +33,7 @@
             <h1>Our Examr app</h1>
             <p>Discover a limitless realm of tailored educational materials, exclusively for college learners. Become a member of Examr now to conquer tests like an expert!</p>
             <div class="dwn-section">
-                <button class="dwn-btns" id="dwn-app">Download app</button>
+                <button class="dwn-btns" id="dwn-app" onclick="appDownload()">Download app</button>
                 <button class="dwn-btns" id="use-web" onclick="launchSoon()">Use web version</button>
             </div>
         </div>
@@ -121,6 +121,9 @@
     <script>
         const launchSoon = () => {
             location.href = "launching-soon.html";
+        }
+        const appDownload = () => {
+            location.href = "https://github.com/examr/examr/releases/download/1.2/app-release.apk";
         }
     </script>
 </body>
