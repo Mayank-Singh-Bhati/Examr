@@ -292,7 +292,7 @@ body::-webkit-scrollbar{
   padding: 30px 40px;
   text-align: center;
   background-color: #fafafa;
-  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 1440px 5px rgba(0, 0, 0, 0.4);
 /*   visibility: hidden; */
   transition: transform 0.4s, top 0.4s;
 }
