@@ -149,9 +149,11 @@
         const openPopup = () => {
             window.scrollTo(0, 0);
             popup.classList.add("open-popup");
+            body.style.overflow="hidden";
         };
         const closePopup = () => {
             popup.classList.remove("open-popup");
+            body.style.overflow="auto";
         }
     </script>
 </body>
