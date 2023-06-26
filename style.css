@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
 }
+body:: -webkit-scrollbar{
+    display: none;
+}
 #header{
     position: sticky;
     padding: 10px 60px;
